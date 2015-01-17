@@ -12,10 +12,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    //if (version_greater_than(@"8.0")) {
+        UIUserNotificationType types =  UIUserNotificationTypeBadge|
+        UIUserNotificationTypeSound|
+        UIUserNotificationTypeAlert;
+        
+        UIUserNotificationSettings *mySettings = [UIUserNotificationSettings settingsForTypes:types categories:nil];
+        
+        [application registerUserNotificationSettings:mySettings];
+    //}
+    
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

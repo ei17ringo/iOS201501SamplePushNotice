@@ -379,6 +379,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SamplePushNotice/SamplePushNotice-Prefix.pch";
 				INFOPLIST_FILE = "SamplePushNotice/SamplePushNotice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SamplePushNotice/SamplePushNotice-Prefix.pch";
 				INFOPLIST_FILE = "SamplePushNotice/SamplePushNotice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +458,7 @@
 				1B0D18B7197CC17800ABFE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B0D18B8197CC17800ABFE69 /* Build configuration list for PBXNativeTarget "SamplePushNoticeTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +467,7 @@
 				1B0D18BA197CC17800ABFE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
